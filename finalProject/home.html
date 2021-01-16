@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="contentBody">
+<div id="aboutus">
+    <h4>Always Forward Corporation was formed in 2009 by the merger of the British Weyland and the Japanese Yutani.
+         We are engaged in the development of software for creating humanoid robots, nanoimplants for humans, as well as cures for deadly diseases.
+         Our corporation was created for prudent purposes only for the quality service of humanity
+         ...At least for now.
+    Currently we are looking for volunteers to test a new cancer drug.</h4>
+</div>
+<div id="form">
+    <h2>Tell Us About Yourself</h2>
+    <form action="MAILTO:katerussia08@gmail.com" method="post" enctype="multipart/form-data">
+        <input id="1" class="input" type="text" name="name" placeholder="Name" required>
+        <input id="2" class="input" type="text" name="skills" placeholder="Skills" required>
+        <input id="3" class="input" type="text" name="purposes" placeholder="Purposes" required>
+        <input id="4" class="input" type="text" name="email" placeholder="E-mail" required>
+    </form>
+    <input id="button" type="submit" value="Send" onclick="main(send())">
+</div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,153 @@
+html, body {
+    height:100%;
+    wight:100%;
+    padding:0;
+    margin: 0;
+    background:black;
+}
+
+.container {
+    height:100%;
+    width:50%;
+    padding: 80px;
+    box-sizing: border-box;
+    /*   display:none; */
+}
+.left{
+    background:#ff6961;
+    float: left;
+}
+.right{
+    background:#6262ff;
+    float: right;
+}
+
+#pill-blue-pill {
+    position: relative;
+    height:75%;
+    width:200px;
+    margin:70px;
+    background:white;
+    border-radius: 80px;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+    border: none;
+    transition: 1s;
+    font-family:"helvetica neue";
+    display: inline-block;
+    font-size: 14px;
+    background: #0000ff;
+}
+
+#pill-blue-pill:hover {
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    transform: translateY(-15px);
+}
+
+#pill-red-pill {
+    position: relative;
+    height:75%;
+    width:200px;
+    margin:70px;
+    background:white;
+    border-radius: 80px;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+    border: none;
+    transition: 1s;
+    font-family:"helvetica neue";
+    display: inline-block;
+    font-size: 14px;
+    background:#ff2727;
+}
+
+#pill-red-pill:hover {
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    transform: translateY(-15px);
+}
+
+.smallpill {
+    position: relative;
+    height:7%;
+    width:80px;
+    margin:70px;
+    border-radius: 80px;
+    text-align: center;
+    border: none;
+    transition: 1s;
+    font-family:"helvetica neue";
+    display: inline-block;
+    font-size: 14px;
+    background: #0000ff;
+}
+
+.smallpill:hover {
+    transform: translateY(-7px);
+}
+
+.matrix-button {
+    position: relative;
+    height:6%;
+    width:150px;
+    margin:70px;
+    border-radius: 80px;
+    text-align: center;
+    border: none;
+    transition: 1s;
+    font-family:"helvetica neue", serif;
+    display: inline-block;
+    font-size: 14px;
+    background:#FFFAF0;
+}
+
+.matrix-button:hover {
+    transform: translateY(-7px);
+}
+
+#my-info {
+    height:80%;
+    width:30%;
+    padding: 1px;
+    margin: 0  auto;
+    font-size: 16px;
+    text-align: center;
+    background-color: #6262ff;
+    font-family: "helvetica neue", serif;
+    color: black;
+    border: none;
+    position: absolute;
+    display: none;
+}
+
+img {
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+}
+
+#matrix-box {
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display:none;
+    color:white;
+    font-family: "helvetica neue", serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.fa {
+    width: 80px;
+    height:80px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}

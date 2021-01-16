@@ -1,0 +1,107 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+    background: #5F9EA0;
+}
+
+body {
+    padding: 0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Bungee Outline";
+    font-size: 36px;
+}
+
+.counter {
+    margin: 0 auto;
+    margin-top:30px;
+    text-align:center;
+}
+
+.controls {
+    margin: 20px 5px;
+    text-align: center;
+}
+
+button {
+    height:35%;
+    width:100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    border-radius: 80px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background: #2F4F4F;
+}
+
+#stopbutton {
+    display:none;
+}
+
+.score {
+    background:rgba(255,255,255,0.2);
+    padding:0 3rem;
+    line-height:1;
+    border-radius:1rem;
+}
+
+.game {
+    width:100%;
+    height:400px;
+    display:flex;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #008B8B;
+}
+
+.hole {
+    flex: 1 0 33.33%;
+    overflow: hidden;
+    position: relative;
+    /*   margin: 0; */
+}
+
+.hole:after {
+    display:block;
+    background: black;
+    background-size:contain;
+    content:'';
+    width: 160px;
+    height:70px;
+    border-radius: 80px;
+    /*   position: absolute; */
+    position:relative;
+    /*   z-index: 2; */
+    bottom:-145px;
+    margin: 0 auto;
+}
+
+.mole {
+    background:url(https://freesvg.org/img/1410462480.png) bottom center no-repeat;
+    background-size: 60%;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition:all 0.4s;
+}
+
+.hole.up .mole {
+    top:0;
+}
+
+

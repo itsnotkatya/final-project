@@ -1,0 +1,125 @@
+html,body {
+    height:100%;
+    width:100%;
+    padding:0;
+    margin: 0;
+}
+
+.chats {
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    width: 7%;
+    height: 100%;
+    background: #FFFAF0;
+    margin-bottom: .5em;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.profile:hover {
+    background-color: #FAF0E6;
+    cursor: pointer;
+}
+
+.chats img {
+    height: 80px;
+    width: auto;
+    margin: 5px;
+}
+
+.profile p {
+    position: relative;
+    padding: -5em .7em 2em;
+    margin-bottom: 0;
+    border-bottom: 1px dotted #cfd8dc;
+    width: calc(100% - (-10px + 1em));
+    height: 25px;
+    float: right;
+    font-size: .75em;
+    font-weight: 500;
+    color: black;
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+}
+
+.welcomepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*position: absolute;*/
+    width:93%;
+    height:100%;
+    box-sizing: border-box;
+    background:#4682B4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color:white;
+}
+
+.typedMessage {
+    border-radius: 80px;
+    padding-top:5px;
+    padding-left:5px;
+    padding-bottom:1px;
+    border:none;
+    bottom: 20px;
+    left: 200px;
+    position: absolute;
+    width: 900px;
+    margin:5px;
+}
+
+button {
+    height:4%;
+    width:55px;
+    border-radius: 80px;
+    text-align: center;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    background: black;
+    bottom: 26px;
+    position:absolute;
+    right: 250px;
+}
+
+.container {
+    display: none;
+    width: 98%;
+    height: 97%;
+    background:#4682B4;
+    padding: 10px;
+}
+
+input {
+    width: 280px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border-style: none;
+    background: #4682B4;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.messages {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    margin-left:5px;
+}
+
+.message-item span{
+    display: inline-block;
+    padding: 5px;
+    background-color: #B0C4DE;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+

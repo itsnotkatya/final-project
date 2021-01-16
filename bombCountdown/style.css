@@ -1,0 +1,48 @@
+body {
+    background: url('https://images.unsplash.com/photo-1573207978800-24d6837c4a38?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1489&q=80');
+    background-size: cover;
+    text-align: center;
+}
+
+.quote {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-inside: 5px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.timerBackground {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    background: rgba(255,255,255,0.3);
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.check {
+    width: 35px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    border:none;
+    margin: 15px;
+    background-color: rgba(255,255,255,0.3);
+}
+
+#submit {
+    margin-top: 2vh;
+    border-radius: 5vh;
+    border: none;
+    background-color: #ec9;
+}
